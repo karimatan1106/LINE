@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="OXamarin.Views.MainPage"
+            xmlns:views="clr-namespace:OXamarin.Views;"
+            BarBackgroundColor="#434C61">
+
+    <!--友達を表示するタブ-->
+    <views:FrendPageTab />
+    <!--トークを表示するタブ-->
+    <views:TalkPageTab/>
+    <!--タイムラインを表示するタブ-->
+    <views:TimelinePageTab/>
+    <!--ニュースを表示するタブ-->
+    <views:NewsPageTab/>
+    <!--設定を表示するタブ-->
+    <views:SettingPageTab/>
+
+</TabbedPage>
